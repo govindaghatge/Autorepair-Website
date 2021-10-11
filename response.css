@@ -1,0 +1,616 @@
+@media only screen and (max-width:1170px){
+    #nav{
+        flex-direction: column;
+        height: 113px;
+        align-items: center;
+        transition: 1s;
+    }
+
+    #nav ul{
+        margin: 5px 0;
+
+    }
+
+    #search{
+        margin: auto;
+    }
+
+    #nav li a{
+         text-decoration: none;
+         color: white;
+         font-size: 13px;
+         margin: -19px;
+    }
+
+    #nav li {
+        padding: 10px;
+    }
+    #section::before{
+        content: "";
+        background: url('image/image2.jpg') no-repeat center center/cover;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height:900px;
+        z-index: -1;
+        opacity: 1;
+    }
+   
+    #section h3{
+        position: relative;
+        right: 120px;
+        letter-spacing: 2px;
+    }
+
+    #section h2{
+        position: relative;
+        right: 120px;
+    }
+    
+    #btn-1{
+        position: relative;
+        right: 120px;
+    }
+
+    .box{
+        width: 316px;
+    }
+
+    #container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .head-2 h5{
+        font-size: 25px;
+    }
+    .head-2 h1{
+        font-size: 35px;
+    }
+    .testimonial{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .testi{
+        margin-bottom: 25px;
+        align-items: center;
+        width: auto;
+        height: auto;
+    }
+    .price-heading h5{
+       font-size: 25px;
+    }
+    .price-heading h2{
+       font-size: 60px;
+    }
+     .pricebox{
+        width: 600px;
+     }
+
+    .price-box{
+       flex-direction: column;
+       align-items: center;
+    }
+    
+     .contactaddress{
+         flex-direction: column;
+         flex-wrap: wrap;
+     }
+     
+     #contactform{
+        flex-wrap: wrap;
+     }
+
+    .footerbox{
+        height: 300px;
+        width: 165px;
+        padding: 0px 5px;
+
+    }
+
+    .footerbox h2{
+        margin-bottom: 18px;
+        margin-top: 25px;
+    }
+
+    .footer-area{
+        flex-direction: column;
+        height: 600px;
+        width: 168px;
+        flex-wrap: wrap;
+        position: relative;
+        right: 90px;
+    }
+
+     .copyright{
+        margin-top: 80px;
+     }
+
+}
+
+@media only screen and (max-width:730px)
+{
+
+    #contact{
+        background-color: rgb(236, 236, 247);
+        height: 650px;
+        width: 100%;
+    }
+
+    #contactform{
+        width: 620px;
+        height: 610px;
+    }
+    #contactform h2{
+          text-align: center;
+          padding-left: 0;
+    }
+    #name{
+        width: 300px;
+        margin:20px 150px; 
+        padding: 10px;
+        border-radius: 5px;
+        border: 2px solid #cccccc;
+    }
+
+    #email{
+        width: 300px;
+        margin:20px 150px; 
+        padding: 10px;
+        border-radius: 5px;
+        border: 2px solid #cccccc;
+    }
+
+    #subject{
+        width: 400px;
+        margin:20px 100px; 
+        padding: 10px;
+        border-radius: 5px;
+        border: 2px solid #cccccc;
+    }
+    #form textarea{
+        margin-left: 37px;
+        padding: 10px;
+        border-radius: 5px;
+        border: 2px solid #cccccc;
+   }
+}
+
+@media only screen and (max-width:660px)
+{
+
+    #contact{
+        background-color: rgb(236, 236, 247);
+        height: 650px;
+        width: 100%;
+    }
+
+    #contactform{
+        width: 500px;
+        height: 625px;
+    }
+  
+    #name{
+        width: 250px;
+        margin: 20px 113px;
+        padding: 10px;
+        border-radius: 5px;
+        border: 2px solid #cccccc;
+    }
+
+    #email{
+        width: 250px;
+        margin: 20px 113px;
+        padding: 10px;
+        border-radius: 5px;
+        border: 2px solid #cccccc;
+    }
+
+    #subject{
+        width: 275px;
+        margin:20px 100px; 
+        padding: 10px;
+        border-radius: 5px;
+        border: 2px solid #cccccc;
+    }
+    #form textarea{
+        width: 350px;
+        margin-left: 62px;
+        padding: 10px;
+        border-radius: 5px;
+        border: 2px solid #cccccc;
+   }
+}
+@media only screen and (max-width:535px)
+{
+
+    #contact{
+        background-color: rgb(236, 236, 247);
+        height: 650px;
+        width: 100%;
+    }
+
+    #contactform{
+        width: 400px;
+        height: 625px;
+    }
+
+    #name{
+        width: 230px;
+        margin: 20px 73px;
+        padding: 10px;
+        border-radius: 5px;
+        border: 2px solid #cccccc;
+    }
+
+    #email{
+        width: 230px;
+        margin: 20px 73px;
+        padding: 10px;
+        border-radius: 5px;
+        border: 2px solid #cccccc;
+    }
+
+    #subject{
+        width: 275px;
+        margin:20px 50px; 
+        padding: 10px;
+        border-radius: 5px;
+        border: 2px solid #cccccc;
+    }
+    #form textarea{
+        width: 340px;
+        margin-left: 18px;
+        padding: 10px;
+        border-radius: 5px;
+        border: 2px solid #cccccc;
+   }
+}
+@media only screen and (max-width:450px)
+{
+
+    #contact{
+        background-color: rgb(236, 236, 247);
+        height: 650px;
+        width: 100%;
+    }
+
+    #contactform {
+        width: 340px;
+        height: 625px;
+    }
+    
+    #name {
+        width: 230px;
+        margin: 20px 43px;
+        padding: 10px;
+        border-radius: 5px;
+        border: 2px solid #cccccc;
+    }
+
+    #email{
+        width: 230px;
+        margin: 20px 43px;
+        padding: 10px;
+        border-radius: 5px;
+        border: 2px solid #cccccc;
+    }
+
+    #subject{
+        width: 275px;
+        margin: 20px 20px;
+        padding: 10px;
+        border-radius: 5px;
+        border: 2px solid #cccccc;
+    }
+    #form textarea{
+        width: 285px;
+        margin-left: 16px;
+        padding: 10px;
+        border-radius: 5px;
+        border: 2px solid #cccccc;
+   }
+}
+@media only screen and (max-width:450px)
+{
+
+    #contact{
+        background-color: rgb(236, 236, 247);
+        height: 650px;
+        width: 100%;
+    }
+
+    #contactform{
+        width: 340px;
+        height: 600px;
+    }
+ 
+    #name {
+        width: 230px;
+        margin: 20px 43px;
+        padding: 10px;
+        border-radius: 5px;
+        border: 2px solid #cccccc;
+    }
+
+    #email{
+        width: 230px;
+        margin: 20px 43px;
+        padding: 10px;
+        border-radius: 5px;
+        border: 2px solid #cccccc;
+    }
+
+    #subject{
+        width: 275px;
+        margin: 20px 20px;
+        padding: 10px;
+        border-radius: 5px;
+        border: 2px solid #cccccc;
+    }
+    #form textarea{
+        width: 285px;
+        margin-left:16px;
+        padding: 10px;
+        border-radius: 5px;
+        border: 2px solid #cccccc;
+   }
+}
+@media only screen and (max-width:370px)
+{
+     #section-2{
+         margin-top: 35px;
+     }
+
+    #contact{
+        background-color: rgb(236, 236, 247);
+        height: 650px;
+        width: 100%;
+    }
+
+    #contactform{
+        width: 275px;
+        height: 600px;
+    }
+    
+    #name {
+        width: 200px;
+        margin: 20px 26px;
+        padding: 10px;
+        border-radius: 5px;
+        border: 2px solid #cccccc;
+    }
+
+    #email{
+        width: 200px;
+        margin: 20px 26px;
+        padding: 10px;
+        border-radius: 5px;
+        border: 2px solid #cccccc;
+    }
+
+    #subject{
+        width: 211px;
+        margin: 20px 20px;
+        padding: 10px;
+        border-radius: 5px;
+        border: 2px solid #cccccc;
+    }
+    #form textarea{
+        width: 230px;
+        margin-left:11px;
+        padding: 10px;
+        border-radius: 5px;
+        border: 2px solid #cccccc;
+   }
+}
+@media only screen and (max-width:280px)
+{
+
+    #contact{
+        background-color: rgb(236, 236, 247);
+        height: 650px;
+        width: 100%;
+    }
+
+    #contactform{
+        width: 230px;
+        height: 600px;
+    }
+    
+    #name {
+        width: 155px;
+        margin: 20px 26px;
+        padding: 10px;
+        border-radius: 5px;
+        border: 2px solid #cccccc;
+    }
+
+    #email{
+        width: 155px;
+        margin: 20px 26px;
+        padding: 10px;
+        border-radius: 5px;
+        border: 2px solid #cccccc;
+    }
+
+    #subject{
+        width: 167px;
+        margin: 20px 20px;
+        padding: 10px;
+        border-radius: 5px;
+        border: 2px solid #cccccc;
+    }
+    #form textarea{
+        width: 188px;
+        margin-left:9px;
+        padding: 10px;
+        border-radius: 5px;
+        border: 2px solid #cccccc;
+   }
+}
+
+@media only screen and (max-width:768px)
+{
+    #section h2{
+        font-size: 30px;
+    }
+    #section::before{
+        content: "";
+        background: url('image/image2.jpg') no-repeat center center/cover;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height:945px;
+        z-index: -1;
+        opacity: 1;
+    }
+    .box-3{
+        font-size: 1.3rem;
+    }
+    .testimonial-section{
+        padding-bottom:0;
+        padding-top: 1px;
+
+    }
+    .testi{
+        width: 250px;
+    }
+   
+    .price-heading h5{
+        font-size: 15px;
+     }
+     .price-heading h2{
+        font-size: 30px;
+     }
+      .pricebox{
+         width: 240px;
+      }
+}
+
+@media only screen and (max-width:320px){
+    .box {
+        width: 250px;
+         }
+         .testi {
+            width: 200px;
+        }
+}
+
+@media only screen and (max-width:280px)
+{
+
+    #nav li a {
+        padding: 12px;
+    }
+
+    #section h2{
+        font-size: 20px;
+        position: relative;
+        right: 150px;
+        width: 150px;
+    }
+    
+    #section h3{
+        position: relative;
+        right: 150px;
+        letter-spacing: 1px;
+        font-size: 10px;
+    }
+    
+    #btn-1{
+        position: relative;
+        right: 150px;
+        width: 150px;
+        font-size: 10px;
+
+    }
+    
+    .box {
+        width: 250px;
+    }
+   
+    .box-5{
+        padding: 0 15px;
+
+    }
+    
+    #section::before{
+        content: "";
+        background: url('image/image2.jpg') no-repeat center center/cover;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height:782px;
+        z-index: -1;
+        opacity: 1;
+    }
+   
+    #services h3{
+        font-size: 10px
+    }
+   
+    #services h1{
+        font-size: 25px;
+    }
+   
+    .testimonial-section{
+        padding-top: 1px;
+    }
+    
+    .testi{
+        width: 100px;
+    }
+    
+    .head-2 h1 {
+        font-size: 1.6rem;
+        text-align: center;
+        margin: 10px -32px 30px;
+    }
+   
+    .head-2 h5{
+        margin: -6px;
+        font-size: 10px;
+    }
+    
+    .price-heading h5{
+        font-size: 15px;
+     }
+     
+     .price-heading h2{
+        font-size: 30px;
+     }
+      
+     .pricebox{
+         width: 180px;
+         height: 350px;
+      }
+
+      .button{
+        width: 150px
+      }
+
+      #footer{
+        padding: 80px 55px;
+      }
+
+    .footer-area{
+        width: 0px;
+        margin: auto;
+    }
+
+    .copyright{
+        margin-top: 90px;
+     }
+
+}
+@media only screen and (max-width:445px)
+{
+    .footer-area{
+        height: 1300px;
+        margin-left: 100px
+    }
+}
